@@ -10,6 +10,6 @@ class Die
     int roll();
 
     private:
-    int sides{6};
+    int sides=6;
 };
 #endif

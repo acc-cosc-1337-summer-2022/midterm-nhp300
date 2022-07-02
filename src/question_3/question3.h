@@ -14,8 +14,8 @@ class Receipt
     double display_receipt();
     
     private:
-    const double tax{.08}; //const
+    const double tax=.08; //const
     double gratuity;
     double price;  
 };
-#endif 
+#endif
